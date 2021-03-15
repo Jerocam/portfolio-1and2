@@ -1,0 +1,304 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+.nav-item {
+    color: white;
+}
+
+.nstyle {
+    font-family: 'Noto Sans KR', sans-serif;
+    padding: 1em;
+}
+
+a:hover{
+    background-color: rgb(26, 91, 175);
+    color: whitesmoke !important;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif !important;
+}
+
+.intro {
+    padding: 20em 0;
+}
+
+.intro a{
+    margin: 0 0.5em;
+}
+
+.abostyle {
+    padding: 4.6em 0;
+}
+
+.abostyle h1{
+    margin-top: 0.3em;
+    padding-bottom: 0.1em;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3.2em;
+}
+
+.abostyle h5 {
+    font-size: 1.1em;
+    font-weight: 100;
+    line-height: normal;
+}
+
+#btnCert {
+    margin-bottom: 2em;
+}
+
+.intro h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 6em;
+    margin: 0.2em 0;
+}
+
+.skstyle {
+    padding: 1.8em 0.8em;
+}
+
+.skstyle h5{
+    font-weight: bold;
+}
+
+.smspace {
+    margin-top: 1.4em;
+}
+
+.progress {
+    height: 25px !important;
+}
+
+.fab{
+    font-size: larger;
+    margin: 0 0.3em;
+}
+
+.hovcolor a {
+    color: rgb(87, 87, 87);
+}
+
+.service-content-single {
+    padding: 1.5em 1em;
+    margin: 1em 0;
+}
+
+.service-content-single h4 {
+    font-weight: 800 !important;
+    margin-top: 0.4em;
+}
+
+.fabig img {
+    max-width: 100px !important;
+    height: auto !important;
+    margin: 0.8em 0;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row2,
+.row2 > .column2 {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column2 {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide columns by default */
+}
+
+/* Clear floats after rows */
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+.fspace {
+    padding: 1.5em 0;
+}
+
+/*--------------------*/
+/* PORTFOLIO */
+/*--------------------*/
+
+#cont {
+    clear: both;
+}
+
+#mu-portfolio {
+	float: left;
+	width: 100%;
+}
+
+.mu-portfolio-area {	
+	float: left;
+	width: 100%;
+}
+
+.mu-portfolio-header {
+	
+	float: left;
+	text-align: center;
+	width: 100%;
+}
+
+.mu-heading-title {
+	color: #1c1b1b;
+	margin-bottom: 15px;
+	position: relative;
+}
+
+.mu-header-dot {
+	border-radius: 0;
+	height: 3px;
+	width: 75px;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+.mu-portfolio-content{	
+	float: left;
+	margin-top: 30px;
+    width: 100%;
+}
+
+.mu-portfolio-filter-area{	
+	float: left;
+	width: 100%;
+	margin-top: 30px;
+}
+
+.filtr-item {
+	margin-bottom: 0px;
+	padding: 16px;
+}
+
+.filtr-item h4 {
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
+.mu-filter-item-content {
+	position: absolute;
+	left: 16px;
+	top: 16px;
+	right: 16px;
+	bottom: 16px;
+	color: #fff;
+	padding-top: 25%;
+	text-align: center;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+    opacity: 0;
+}
+
+.mu-item-thumbonail{
+	float: left;
+	overflow: hidden;
+    max-width: 100% !important;
+    height: 250px!important;
+}
+
+.filtr-item:hover .mu-filter-item-content{
+	opacity: 0.94;
+}
+
+.mu-filter-link,
+.mu-filter-imglink {
+	border-radius: 50%;
+    background: #000000 !important;
+    color: #fff !important;
+    height: 45px;
+    padding: 0 6px;
+    width: 45px;
+    line-height: 45px;
+    display: inline-block;
+    font-size: 26px;
+    margin-right: 10px;
+    margin-top: 5px;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.mu-filter-link:hover,
+.mu-filter-imglink:hover
+{
+    background-color: rgb(255, 255, 255) !important;
+    color: black !important;
+} 
+
+
+/* Filter controls */
+
+.mu-simplefilter {
+	text-align: center;
+}
+
+.mu-simplefilter li {
+	color: rgb(0, 0, 0);
+	cursor: pointer;
+	display: inline-block;
+	padding: 5px;
+	margin: 0 5px;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+
+.mu-simplefilter li:hover,
+.mu-simplefilter li.active {
+    color: rgb(26, 91, 175);
+    font-size: 1.3em;
+}
+
+.btlog {
+    font-size: 1em !important;
+}
+
+.fa-send {
+    padding-right: 0.3em;
+}
+
+.fa-envelope, .fa-phone {
+    padding-right: 0.4em;
+}
+
+.jcontact {
+    margin-top: 1em;
+}
+
+.fa-download {
+    padding-right: 0.4em !important;
+}
+
+.bwork a:hover {
+    background-color:  rgb(26, 91, 175) !important;
+}
+
+.bwork h1 {
+    margin: 0 !important;
+}
+
+.bwork a {
+    margin: 2em !important;
+}
+
+.downcv:hover {
+    background-color: rgb(26, 91, 175) !important;
+}
+
+#logoJO {
+    max-width: 120px;
+    margin-bottom: 1em;
+}
